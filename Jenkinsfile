@@ -3,7 +3,7 @@ pipeline {
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "willbla/train-schedule"
-        KUBE_MASTER_IP = 18.234.182.157
+        KUBE_MASTER_IP = "18.234.182.157"
     }
     stages {
         stage('Build') {
